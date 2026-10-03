@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f5f2e9" />
+    <title>Luma Academy — Make room for your next idea</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+      <a class="brand" href="#discover" aria-label="Luma Academy home"
+        ><span class="brand-symbol">✳</span> luma<span class="academy"
+          >ACADEMY</span
+        ></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#discover">Explore</a
+        ><a href="#dashboard">My learning <span id="nav-count">0</span></a>
+      </nav>
+      <span class="concept">PORTFOLIO CONCEPT</span>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer>
+      <a class="brand" href="#discover">✳ luma</a>
+      <p>A little curiosity. A lot of possibility.</p>
+      <p>
+        Self-initiated concept by Muhammad Mukhtar Zikirullahi.<br />Original
+        learning materials · fictional academy · no accreditation
+      </p>
+      <button id="reset" class="text-button">Reset demo data</button>
+    </footer>
+    <dialog id="reset-dialog">
+      <h2>A fresh start?</h2>
+      <p>
+        This clears your saved lessons, bookmarks and exercises on this device.
+      </p>
+      <div class="actions">
+        <button id="cancel-reset" class="secondary">Keep learning</button
+        ><button id="confirm-reset" class="primary">Reset everything</button>
+      </div>
+    </dialog>
+    <div id="toast" role="status"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
